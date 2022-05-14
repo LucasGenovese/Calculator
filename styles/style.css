@@ -35,7 +35,7 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-.result{
+.screen{
     border-style: solid;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
