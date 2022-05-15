@@ -10,6 +10,10 @@ body{
 }
 
 main{
+    background-color: grey;
+    padding: 2rem;
+    border-style: solid;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -17,7 +21,11 @@ main{
 }
 
 button{
+    color: white;
+    background-color: #444444;
     padding: 1rem 2rem;
+    margin: 0.2rem;
+    border-width: 0.3rem;
     border-radius: 0.5rem;
     font-family: inherit;
     font-size: 4rem;
@@ -28,6 +36,27 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
+#remove{
+    background-color: #4141f1;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#clear{
+    color: black;
+    background-color: #ff9100;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 .center{
     position: fixed;
     top: 50%;
@@ -35,7 +64,15 @@ h1{
     transform: translate(-50%, -50%);
 }
 
+.remove-clear{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .screen{
+    background-color: #688500;
     border-style: solid;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
